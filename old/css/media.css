@@ -1,0 +1,89 @@
+
+@media (max-width: 1385px) {
+    .top-header__menu ul li { margin-left: 30px; }
+}
+
+@media (max-width: 1300px) {
+    .experts-block img { width: 70%; }
+    .experts-block p.title, .experts-block p.name { font-size: 30px; }
+    .experts-block p.exp { font-size: 24px; }
+    .contact-block svg { width: 10%; }
+    .contact-block span { font-size: 26px; }
+}
+
+
+@media (max-width: 1176px) {
+    .top-header__menu ul { 
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: -1000px;
+        background: #0A2046;
+        padding: 20px 0;
+        transition: top .5s ease;
+     }
+     .top-header__menu ul li {
+        border-bottom: 2px solid #0A2046;
+        width: 80%;
+        margin: 0 auto;
+     }
+     .top-header__menu ul li:hover {
+         border-bottom: 2px solid #fff;
+     }
+
+     .top-header__menu ul a {
+         color: #fff !important;
+     }
+    .burger { display: block !important; }
+}
+
+@media (max-width: 958px) {
+    .advantages { display: none; }
+    .experts-block p.title, .experts-block p.name { font-size: 22px; }
+    .experts-block p.exp { font-size: 16px; }
+    .contact-block span { font-size: 20px; }
+}
+
+@media (max-width: 900px) {
+    .form-feedback__image { display: none; }
+    .form-feedback__form { width: 100% }
+    .form-feedback__form input { width: 93% ;}
+    .form-feedback {width: 90% }
+}
+
+@media (max-width: 768px) {
+    .goal-bg .aside-right { width: 100% }
+    .experts-line { flex-direction: column; justify-content: center; align-items: center;}
+    .experts-block { width: 70% }
+    .experts-block p.title, .experts-block p.name { font-size: 30px; }
+    .experts-block p.exp { font-size: 24px; }
+    .information-contact { flex-direction: column; align-items: center;}
+    .centre-header .container h1 { font-size: 40px; line-height: 55px;}
+}
+
+@media (max-width: 570px) {
+    .centre-header .container h1 { font-size: 34px; line-height: 46px;}
+    .centre-header .container a { padding: 22px 24px;}
+}
+
+@media (max-width: 480px) {
+    .pre-hero .pre-hero__login { margin-left: 0; }
+    .pre-hero .container { flex-direction: column;}
+    .pre-hero { height: 55px }
+}
+
+@media (max-width: 400px) {
+    .google-map { height: 300px; }
+    .contact .container h4, .form-bg .container h4, .experts .container h2 { font-size: 36px; }
+    .contact .container h5, .form-bg .container h5, .experts .container h3 { font-size: 24px; }
+    .experts-block p.title, .experts-block p.name { font-size: 22px; }
+    .experts-block p.exp { font-size: 16px; }
+    .goal-bg h3 { font-size: 28px; }
+}
+
+@media (max-width: 360px) {
+    .centre-header .container a { font-size: 14px; padding: 18px; }
+    .container { width: 90%; }
+}

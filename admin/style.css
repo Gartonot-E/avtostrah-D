@@ -1,0 +1,72 @@
+body { background: #e1e1e1; }
+.container { padding: 50px 0; }
+.container > h2 { margin-bottom: 50px; }
+
+
+.accordion-body form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.accordion-body form input:hover,
+.accordion-body form input:active,
+.accordion-body form input:focus,
+.accordion-body form textarea:hover,
+.accordion-body form textarea:active,
+.accordion-body form textarea:focus {
+    outline: none;
+}
+
+.accordion-body form input,
+.accordion-body form textarea {
+    padding: 8px 16px;
+    border: 1px solid #dadada;
+    resize: none;
+    border-radius: 4px;
+} 
+
+.accordion-body form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.accordion-body form label span {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #0c63e4;
+    font-weight: bold;
+}
+
+.accordion-body {
+    padding: 30px;
+    background: #f1f1f1;
+}
+
+.accordion-body form input[type="submit"] {
+    color: #ffffff;
+    background-color: #0c63e4;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.experts-block img {
+    margin-bottom: 30px;
+    width: 70%;
+    position: relative;
+}
+
+.experts-block {
+    position: unset;
+    min-height: initial;
+    max-height: initial;
+    padding: 20px 0 0 0;
+}
+
